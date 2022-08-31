@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+body {
+    background-color: #ecf0f1;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+a {
+    color: #34495e;
+    text-decoration: none;
+}
+
+a:hover {
+    transition: 1s;
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+#container {
+    width: 100%;
+}
+
+#inicio {
+    height:30%;
+    padding: 10rem 10rem;
+    background: url(imagens/vangogh.jpg);
+}
+
+#apresentacao {
+    background: #fff;
+    opacity: 0.9;
+    width: 20rem;
+    padding: 1.5rem;
+}
+
+#aulas {
+    background: #2c3e50;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 10rem;
+    background: #fff;
+}
+
+section {
+    padding: 5rem 10rem;
+}
+
+footer {
+    background: #2c3e50;
+    color: #fff;
+    padding: 2rem 10rem;
+}
+
+#aulas a, footer a {
+    color: #95a5a6;
+}
+
+#aulas a, footer a:hover {
+    color: #fff;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 2.2rem;
+    color: #34495e;
+    text-align:center;
+}
+
+#aulas h1 {
+    color: #fff;
+}
+
+.titulo {
+    font-family: 'Abril Fatface', cursive;
+    font-size:1.4rem;
+    color:#34495e;
+}
+
+.apresentacao {
+    font-size: 2.2rem;
+    color: #34495e;
+}
+
+/* Responsividade */
