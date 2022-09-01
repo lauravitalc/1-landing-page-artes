@@ -212,6 +212,10 @@ input, textarea, select {
     font-size: 1.1rem;
 }
 
+.formulario {
+    padding: 2rem;
+    text-align: left;
+}
 
 /* Slideshow - Tutorial por W3SCHOOLS e editado por Laura */
 .slideshow-container {
@@ -307,6 +311,7 @@ input, textarea, select {
 /* Responsividade */
 
 @media screen and (max-width: 780px){
+
     #inicio {
         height: auto;
         background: url(imagens/vangogh.jpg);    
@@ -325,6 +330,14 @@ input, textarea, select {
 
     .card-base {
         flex-direction: column;
+    }
+
+    .contato-base {
+        display:block;
+    }
+
+    input, label {
+        display: block;
     }
     .card {
         width:100%;
