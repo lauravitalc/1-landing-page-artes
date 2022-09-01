@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escola de Artes</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <div id="container">
@@ -15,7 +17,15 @@
             </div>
             
             <nav>
-                nav
+                <div class="nav" id="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#quem-somos">Sobre</a>
+                    <a href="#aulas">Aulas</a>
+                    <a href="#contato">Contato</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
             </nav>
         </header>
 
@@ -113,6 +123,20 @@
 
             <section id="contato">
                 <h2>Contato</h2>
+                    <div class="contato-base">
+                        <div class="card">
+                            <div class="card-texto-personalizado">
+                                <p>Rua Lorem Impsum, 000, Suspendisse convallis, Ligula elit, 58748-589.</p>
+                                <p>Telefone: (43) 67464-7874 </p>
+                            </div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15006.072515360478!2d-43.93413150000001!3d-19.90255935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1662060067425!5m2!1spt-BR!2sbr" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
+                        <div class="card">
+                            isdfj
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
 
@@ -122,5 +146,8 @@
     </div>
 
     <script src="script.js"></script>
+    <script>    
+        ScrollReveal().reveal('.card');
+    </script>
 </body>
 </html>

@@ -1,3 +1,5 @@
+// Slideshow de frases - Tutorial por: W3SCHOOLS
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -24,3 +26,16 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+// Menu Hamburguer - Tutorial por: W3SCHOOLS
+
+function myFunction() {
+    var x = document.getElementById("nav");
+    if (x.className === "nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav";
+    }
+  }
+  
+
