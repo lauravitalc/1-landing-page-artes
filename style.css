@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-    transition: 1s;
+    transition: 0.5s;
     color: #2c3e50;
     text-decoration: none;
 }
@@ -28,29 +28,41 @@ a:hover {
 }
 
 #inicio {
-    height:30%;
-    padding: 10rem 10rem;
-    background: url(imagens/vangogh.jpg);
+  display:flex;
+  height: 88vh;
+  justify-content: space-between;
+  align-items: center;
+  
 }
+#inicio-img {
+    background: url(imagens/vangogh.jpg);    
+    position: relative;
+    height: 100%;
+    width: 100%;
+    clip-path: circle(94.7% at 97% 51%);
 
+}
 #apresentacao {
-    background: #fff;
-    opacity: 0.9;
-    width: 20rem;
+    width: 40rem;
     padding: 1.5rem;
+    margin: 10rem;
+    margin-right:0;
+    
 }
 
-#aulas {
+.section-azul {
     background: #2c3e50;
     color: #fff;
 }
+
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 10rem;
-    background: #fff;
+    background: #2c3e50;
+    color: #fff;
 }
 
 section {
@@ -58,39 +70,96 @@ section {
 }
 
 footer {
-    background: #2c3e50;
-    color: #fff;
     padding: 2rem 10rem;
 }
 
-#aulas a, footer a {
+.section-azul a{
     color: #95a5a6;
 }
 
-#aulas a, footer a:hover {
+.section-azul a:hover {
     color: #fff;
 }
 
 h1 {
+    font-weight: normal;
+    font-size: 2.6rem;
+    color: #34495e;
+    margin-bottom: 1rem;
+}
+
+h2 {
     font-weight: normal;
     font-size: 2.2rem;
     color: #34495e;
     text-align:center;
 }
 
-#aulas h1 {
+.section-azul h2 {
     color: #fff;
 }
 
 .titulo {
     font-family: 'Abril Fatface', cursive;
-    font-size:1.4rem;
-    color:#34495e;
+    font-size:1.8rem;
 }
 
-.apresentacao {
-    font-size: 2.2rem;
-    color: #34495e;
+.descricao {
+    font-size: 1.2rem;
 }
 
+button {
+    text-decoration: none;
+    font-size: 1.0rem;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    cursor: pointer;
+}
+button:hover{
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.btn-escuro {
+    background-color: #34495e;
+    color: #fff;
+}
+
+.btn-escuro:hover {
+    background-color: #2c3e50;
+}
+
+.btn-claro {
+    background-color: #95a5a6;
+    color: #fff;
+}
+
+.btn-claro:hover {
+    background-color: #7f8c8d;
+}
 /* Responsividade */
+
+@media screen and (min-width: 200px) and (max-width: 780px){
+    #inicio {
+        height: auto;
+        background: url(imagens/vangogh.jpg);    
+    }
+    #apresentacao {
+        background: #fff;
+        opacity:0.9;
+        width: 100%;
+        padding: 1.5rem;
+        margin:1.5rem;
+    }
+
+    #inicio-img {
+        display: none;
+    }
+
+    header, section, footer {
+     padding: 1.5rem;   
+    }
+}
