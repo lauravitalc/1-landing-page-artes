@@ -23,7 +23,8 @@
             <div id="apresentacao">
                 <h1>Aula de Arte para Todos</h1>
                 <div class="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac tempor nibh, ac egestas mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</div>
-                <button class="btn-escuro" href="#aulas">Nossas Aulas</button> <button class="btn-claro" style="margin-left:0.5rem;" href="#contato">Contato</button>
+                <button class="btn-escuro" href="#aulas">Nossas Aulas</button> 
+                <button class="btn-claro" style="margin-left:0.5rem;" href="#contato">Contato</button>
             </div>
 
             <div id="inicio-img"></div>
@@ -33,14 +34,81 @@
         <main>
             <section id="quem-somos" class="section-azul">
                 <h2>Quem somos</h2>
+                <div class="card-base">
+                    <div class="card">
+                        <img src="imagens/foto-1.jfif" class="card-img">
+                        <div class="card-texto">
+                            <h3>Ana Silva</h3>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="imagens/foto-2.jfif" class="card-img">
+                        <div class="card-texto">
+                            <h3>Geraldo Souza</h3>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="imagens/foto-3.jfif" class="card-img">
+                        <div class="card-texto">
+                            <h3>Carlos Pereira</h3>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section id="aulas">
                 <h2>Nossas aulas</h2>
+                <div class="card-base">
+                    <div class="card section-azul">
+                        <img src="imagens/pintura-a-oleo.jpg" class="img-card-personalizado">
+                        <h3 style="margin-top:2rem;">Pintura a Óleo</h3>
+                        <div class="card-texto-personalizado">
+                            Proin consectetur leo dignissim, molestie ante non, ullamcorper ipsum. Fusce porttitor hendrerit lorem nec molestie. 
+                        </div>
+                    </div>
+                    <div class="card section-azul">
+                        <img src="imagens/pintura-acrilica.jpg" class="img-card-personalizado">
+                        <h3 style="margin-top:2rem;">Pintura Acrílica</h3>
+                        <div class="card-texto-personalizado">
+                            Proin consectetur leo dignissim, molestie ante non, ullamcorper ipsum. Fusce porttitor hendrerit lorem nec molestie. 
+                        </div>
+                    </div>
+                    <div class="card section-azul card-personalizado">
+                        <img src="imagens/pintura-aquarela.jpg" class="img-card-personalizado">
+                        <h3 style="margin-top:2rem;">Pintura Aquarela</h3>
+                        <div class="card-texto-personalizado">
+                            Proin consectetur leo dignissim, molestie ante non, ullamcorper ipsum. Fusce porttitor hendrerit lorem nec molestie. 
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section id="depoimentos" class="section-azul">
                 <h2>Depoimentos</h2>
+                <div class="slideshow-container">
+                    <div class="slides">
+                    <q>Proin consectetur leo dignissim, molestie ante non, ullamcorper ipsum. Fusce porttitor hendrerit lorem nec molestie.e</q>
+                    <p class="author">- Júlia M.</p>
+                    </div>
+                    <div class="slides">
+                    <q>Suspendisse convallis ligula elit, eget tristique elit egestas sed.</q>
+                    <p class="author">- João E.</p>
+                    </div>
+                    <div class="slides">
+                    <q>INulla tempus fermentum diam, quis rhoncus odio mollis in. Donec id mi fermentum sem venenatis posuere et quis ligula.</q>
+                    <p class="author">- Ariel L.</p>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <div class="dot-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
             </section>
 
             <section id="contato">
@@ -52,5 +120,7 @@
             Landing Page feito por <a href="https://github.com/lauravitalc">Laura Vital</a> - 2022
         </footer>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
