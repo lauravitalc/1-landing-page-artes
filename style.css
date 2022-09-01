@@ -95,9 +95,11 @@ p {
 }
 
 .contato-base {
+    margin-top:3rem;
     display: grid;
     text-align: left;
     grid-template-columns:1fr 1fr;
+    gap: 3rem;
 }
 
 .contato .card {
@@ -194,6 +196,20 @@ button:hover{
 
 .btn-claro:hover {
     background-color: #7f8c8d;
+}
+
+label {
+    font-size: 1.3rem;
+}
+
+input, textarea, select {
+    display:inline-block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding:0.3rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.1rem;
 }
 
 
