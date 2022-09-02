@@ -1,5 +1,7 @@
-# 1-landing-page-artes
+# 1 - Landing Page: Artes
 Um Landing Page sobre uma Escola de Artes fictícia. Utilizando HTML, CSS e Javascript.
+
+## [Visualizar](https://lauravitalc.github.io/1-landing-page-artes/)
 
 ### HTML
 - Utilização de Flexbox.
@@ -16,4 +18,4 @@ Um Landing Page sobre uma Escola de Artes fictícia. Utilizando HTML, CSS e Java
     - [Scrool Reveal](https://scrollrevealjs.org/)
 
 #### Considerações Finais
-Esse é apenas um dos meus primeiros Landing Pages. Daqui pra frente tenho muito a melhorar, e será incrível poder voltar nesse repositório e ver o quanto eu evolui, seja na organização do meu código, na otimização, no ui/ux design, javascript, utilização de outras frameworks e bibliotecas, etc. Já vejo o que eu poderia ter feito de diferente, e espero poder melhorar.
+Esse é apenas um dos meus primeiros Landing Pages. Daqui pra frente tenho muito a melhorar, e será incrível poder voltar nesse repositório e ver o quanto eu evolui, seja na organização do meu código, na otimização, no ui/ux design, javascript, utilização de outras frameworks e bibliotecas, etc. Já consigo visualizar muitas coisas a serem melhoradas! Espero realizar todas as mudanças em breve.
